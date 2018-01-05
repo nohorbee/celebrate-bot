@@ -1,0 +1,12 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: CongratulateBot
+paths:
+  /congratulate:
+    post:
+      description: |
+        Rises a flag in sign of congratulations!
+      responses:
+        200:
+          description: Successful response
