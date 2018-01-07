@@ -1,6 +1,6 @@
 // Handlers
-void congratulateHandler(WebServer &server, WebServer::ConnectionType verb, String uriParams, String queryParams);
-void congratulateHandler(WebServer &server, WebServer::ConnectionType verb, String uriParams, String queryParams) {
+void celebrateHandler(WebServer &server, WebServer::ConnectionType verb, String uriParams, String queryParams);
+void celebrateHandler(WebServer &server, WebServer::ConnectionType verb, String uriParams, String queryParams) {
   switch (verb)
     {
     case WebServer::POST:

@@ -19,7 +19,7 @@ void dispatch(WebServer &server, WebServer::ConnectionType verb, char url_tail[]
   // THIS ARRAY CAN'T BE GENERATED GLOBAL, OR PASSED AS A PARAMETER (since the function is a Command). So,
   // The code generator must inject this here (I haven' found a nicer way to do this).
   FLASH_STRING_ARRAY(resources,
-      PSTR("/congratulate/"),
+      PSTR("/celebrate/"),
   );
 
 

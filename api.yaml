@@ -1,12 +1,12 @@
 swagger: "2.0"
 info:
   version: "0.0.1"
-  title: CongratulateBot
+  title: CelebrateBot
 paths:
-  /congratulate:
+  /celebrate:
     post:
       description: |
-        Rises a flag in sign of congratulations!
+        Rises a flag in sign of celebration!
       responses:
         200:
           description: Successful response

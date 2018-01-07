@@ -4,7 +4,7 @@ WebServer webserver(PREFIX, 80);
 
 void registerHandlers() {
 
-handlers[0].method = &congratulateHandler;
+handlers[0].method = &celebrateHandler;
 
 }
 
