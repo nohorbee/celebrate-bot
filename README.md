@@ -1,8 +1,8 @@
 # celebrate-bot
 
-This is a small project original built for a blog post demonstrating how to integrate a fairly flexible and existing platform to call an API to interact with the physical world.
+This is a small project originally built for a blog post demonstrating how to integrate a fairly extensible platform to call an API to interact with the physical world.
 
-Even though this project ends up performing a trivial action, the same architecture can be used to achieve almost any physical world integration.
+Even though this project ends up performing a trivial action, the same architecture could be used to achieve almost any physical world integration.
 
 ## About the project
 
