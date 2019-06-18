@@ -4,7 +4,7 @@ void celebrateHandler(WebServer &server, WebServer::ConnectionType verb, String 
   switch (verb)
     {
     case WebServer::POST:
-        myServo.write(100);
+        myServo.write(90);
         delay(5000);
         myServo.write(10);
         server.httpSuccess();
